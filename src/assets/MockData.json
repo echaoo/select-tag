@@ -5,7 +5,7 @@
       "hasSecondTabs": true,
       "secondTabs": [
         {
-          "name": "全部",
+          "name": "车型",
           "items": [
             {
               "name": "最近一天访问车型",
@@ -60,66 +60,51 @@
             },
             {
               "name": "最近三天访问车型",
-              "selectList": [
-                {
-                  "name": "奔驰",
-                  "id": "1",
-                  "selected": true,
-                  "firstAlpha": "B"
-                },
-                {
-                  "name": "宝马",
-                  "id": "2",
-                  "selected": false
-                }
-              ]
-            },
-            {
-              "name": "最近七天访问车型",
-              "selectList": [
-                {
-                  "name": "奔驰",
-                  "id": "1",
-                  "selected": true,
-                  "firstAlpha": "B"
-                },
-                {
-                  "name": "宝马",
-                  "id": "2",
-                  "selected": false
-                }
-              ]
-            }
-          ],
-          "activeIndex": 0
-        },
-        {
-          "name": "车型",
-          "items": [
-            {
-              "name": "最近一天访问车型",
               "level": 2,
               "selectList": [
                 {
                   "name": "奔驰",
+                  "id": "1",
                   "firstAlpha": "B",
                   "list": [
                     {
-                      "name": "奔驰C700",
+                      "name": "奔驰C300",
                       "selected": true,
                       "id": "1"
                     },
                     {
                       "name": "奔驰C600",
-                      "selected": true,
+                      "selected": false,
                       "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
                     }
                   ]
                 },
                 {
                   "name": "宝马",
                   "id": "2",
-                  "selected": false
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
                 }
               ],
               "activeIndex": 0
@@ -131,31 +116,49 @@
                 {
                   "name": "奔驰",
                   "id": "1",
-                  "selected": true,
-                  "firstAlpha": "B"
+                  "firstAlpha": "B",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
                 },
                 {
                   "name": "宝马",
                   "id": "2",
-                  "selected": false
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
                 }
-              ]
-            },
-            {
-              "name": "最近七天访问车型",
-              "selectList": [
-                {
-                  "name": "奔驰",
-                  "id": "1",
-                  "selected": true,
-                  "firstAlpha": "B"
-                },
-                {
-                  "name": "宝马",
-                  "id": "2",
-                  "selected": false
-                }
-              ]
+              ],
+              "activeIndex": 0
             }
           ],
           "activeIndex": 0
@@ -169,18 +172,14 @@
               "selectList": [
                 {
                   "name": "奔驰",
-                  "id": "1",
                   "firstAlpha": "B",
-                  "list": [
-                    {
-                      "name": "奔驰C300",
-                      "selected": true
-                    }
-                  ]
+                  "selected": true,
+                  "id": "10011"
                 },
                 {
                   "name": "宝马",
-                  "id": "2",
+                  "id": "10012",
+                  "firstAlpha": "B",
                   "selected": false
                 }
               ],
@@ -188,35 +187,41 @@
             },
             {
               "name": "最近三天访问品牌",
+              "level": 1,
               "selectList": [
                 {
                   "name": "奔驰",
-                  "id": "1",
+                  "firstAlpha": "B",
                   "selected": true,
-                  "firstAlpha": "B"
+                  "id": "10011"
                 },
                 {
                   "name": "宝马",
-                  "id": "2",
+                  "id": "10012",
+                  "firstAlpha": "B",
                   "selected": false
                 }
-              ]
+              ],
+              "activeIndex": 0
             },
             {
-              "name": "最近七天访问车型",
+              "name": "最近五天访问品牌",
+              "level": 1,
               "selectList": [
                 {
                   "name": "奔驰",
-                  "id": "1",
+                  "firstAlpha": "B",
                   "selected": true,
-                  "firstAlpha": "B"
+                  "id": "10011"
                 },
                 {
                   "name": "宝马",
-                  "id": "2",
+                  "id": "10012",
+                  "firstAlpha": "B",
                   "selected": false
                 }
-              ]
+              ],
+              "activeIndex": 0
             }
           ],
           "activeIndex": 0

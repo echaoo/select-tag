@@ -6,7 +6,7 @@
     <div class="button-group">
       <button class="btn" v-for="(item, index) in selectData.list" :class="{'btn-active': index === selectData.activeTab}" @click="handleButtonClick(index)">{{item.tabName}}</button>
     </div>
-    <select-box :data="selectData.list[selectData.activeTab]" @select-change="handleSelectChange"></select-box>
+    <select-box :data="selectData.list[selectData.activeTab]" :total-select="selectData.totalSelect" :current-select="selectData.currentSelect" @select-change="handleSelectChange"></select-box>
     <div class="footer">
       <button class="btn footer-btn" @click="handleClose(0)">取消</button>
       <button class="btn footer-btn" @click="handleClose(1)">确定</button>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-  import SelectBox from './SelectBox.vue';
+  import SelectBox from './SelectBox.vue'
 
   export default {
     props: {
@@ -29,12 +29,12 @@
         this.$emit('change-tab', index)
       },
       handleClose(code) {
-        this.$emit('close', code);
+        this.$emit('close', code)
       },
       handleSelectChange(rs) {
-        rs.firstCate = this.selectData.activeTab;
-        console.log('change item: ' + JSON.stringify(rs));
-        this.$emit('select-change', rs);
+        rs.firstCate = this.selectData.activeTab
+//        console.log('change item: ' + JSON.stringify(rs))
+        this.$emit('select-change', rs)
       }
     },
     components: {

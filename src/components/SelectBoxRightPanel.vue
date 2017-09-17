@@ -1,6 +1,6 @@
 <template>
   <div class="right-panel-container">
-    <h1 class="list-title">已选择 <span>0</span>/<span>10</span>个标签</h1>
+    <h1 class="list-title">已选择 <span>{{currentSelect}}</span>/<span>{{totalSelect}}</span>个标签</h1>
     <div v-if="data.level == 2">
       <div ref="scroller" class="first-list">
         <ul class="cas-panel">
@@ -38,6 +38,15 @@
       },
       scrollDistance: {
         type: Number
+      },
+      selectedNumber: {
+        type: Number
+      },
+      totalSelect: {
+        type: Number
+      },
+      currentSelect: {
+        type: Number
       }
     },
     watch: {
@@ -48,27 +57,29 @@
     },
     methods: {
       handleCateClick(item, index) {
-        console.log('click item:' + JSON.stringify(item));
-        this.data.activeIndex = index;
+        console.log('click item:' + JSON.stringify(item))
+        this.data.activeIndex = index
       },
       handleItemClick(item, index) {
-        let rs = {};
-        rs.level = 5;
-        rs.name = item.name;
-        rs.id = item.id;
-        rs.itemIndex = index;
-        rs.fourthCate = this.data.activeIndex;
-        console.log('change item: ' + JSON.stringify(rs));
-        this.$emit('select-change', rs);
+        let rs = {}
+        rs.action = item.selected
+        rs.level = 5
+        rs.name = item.name
+        rs.id = item.id
+        rs.itemIndex = index
+        rs.fourthCate = this.data.activeIndex
+//        console.log('change item: ' + JSON.stringify(rs))
+        this.$emit('select-change', rs)
       },
       handle1LevelItemClick(item, index) {
-        let rs = {};
-        rs.level = 4;
-        rs.name = item.name;
-        rs.id = item.id;
-        rs.itemIndex = index;
-        console.log('change item: ' + JSON.stringify(rs));
-        this.$emit('select-change', rs);
+        let rs = {}
+        rs.action = item.selected
+        rs.level = 4
+        rs.name = item.name
+        rs.id = item.id
+        rs.itemIndex = index
+        console.log('change item: ' + JSON.stringify(rs))
+        this.$emit('select-change', rs)
       }
     }
   }

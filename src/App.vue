@@ -18,11 +18,30 @@ export default {
   },
   methods: {
     changeTab(index) {
-      this.selectTagData.activeTab = index;
+      this.selectTagData.activeTab = index
     },
     handleSelectChange(rs) {
-      this.rs.push(rs);
-      console.log(this.rs);
+      if (rs.action === true) {
+        if (this.selectTagData.currentSelect < this.selectTagData.totalSelect) {
+          this.rs.push(rs)
+          this.selectTagData.currentSelect++
+        } else {
+          if (rs.level === 5) {
+            this.selectTagData.list[rs.firstCate].secondTabs[rs.secondCate].items[rs.thirdCate].selectList[rs.fourthCate].list[rs.itemIndex].selected = false
+          } else if (rs.level === 4) {
+            this.selectTagData.list[rs.firstCate].secondTabs[rs.secondCate].items[rs.thirdCate].selectList[rs.itemIndex].selected = false
+          }
+          alert('最多可选择' + this.selectTagData.totalSelect + '个标签！')
+        }
+      } else {
+        this.rs.forEach((item, index) => {
+          if (item.id === rs.id) {
+            this.rs.splice(index, 1)
+            this.selectTagData.currentSelect--
+          }
+        })
+      }
+      console.log(this.rs)
     }
   },
   components: {

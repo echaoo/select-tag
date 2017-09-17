@@ -25,7 +25,7 @@
     },
     methods: {
       handleTabClick(index) {
-        this.$emit('click-tab', index);
+        this.$emit('click-tab', index)
       },
       handleItemClick(item, index) {
         this.$emit('click-item', {item, index})

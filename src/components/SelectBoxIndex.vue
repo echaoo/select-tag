@@ -34,13 +34,13 @@
     },
     methods: {
       isDisable(index) {
-        let temp = Object.keys(this.indexKey);
+        let temp = Object.keys(this.indexKey)
         for (let i = 0; i < temp.length; i++) {
           if (this.alpha[index] === temp[i]) {
-            return false;
+            return false
           }
         }
-        return true;
+        return true
       },
       handleClick(item) {
         this.$emit('index-click', this.alpha[item])

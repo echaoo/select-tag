@@ -1,8 +1,7 @@
 <template>
   <div class="index">
     <ul>
-      <li v-for="(item, index) in alpha" @click="handleClick(item)" v-bind:class="{disabled: isDisable(index)}">{{item}}
-      </li>
+      <li v-for="(item, index) in alphaList" @click="handleClick(item)">{{ item }}</li>
     </ul>
   </div>
 </template>
@@ -11,7 +10,7 @@
   export default {
     data() {
       return {
-        alpha: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+//        alpha: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
       }
     },
     props: {
@@ -20,6 +19,17 @@
         default() {
           return {}
         }
+      },
+      alpha: {
+        type: Object,
+        default () {
+          return {}
+        }
+      }
+    },
+    computed: {
+      alphaList () {
+        return Object.keys(this.alpha)
       }
     },
     methods: {
@@ -33,7 +43,7 @@
         return true;
       },
       handleClick(item) {
-        this.$emit('index-click', item)
+        this.$emit('index-click', this.alpha[item])
       }
     }
   }

@@ -12,8 +12,233 @@
               "level": 2,
               "selectList": [
                 {
-                  "name": "奔驰",
+                  "name": "奥迪",
                   "id": "1",
+                  "firstAlpha": "A",
+                  "list": [
+                    {
+                      "name": "奥迪Q7",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥迪TT",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥克斯",
+                  "id": "2",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "奥克斯C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥克斯C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥迪",
+                  "id": "3",
+                  "firstAlpha": "A",
+                  "list": [
+                    {
+                      "name": "奥迪Q7",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥迪TT",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥克斯",
+                  "id": "4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "奥克斯C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥克斯C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥迪",
+                  "id": "5",
+                  "firstAlpha": "A",
+                  "list": [
+                    {
+                      "name": "奥迪Q7",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥迪TT",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥克斯",
+                  "id": "6",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "奥克斯C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥克斯C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥迪",
+                  "id": "7",
+                  "firstAlpha": "A",
+                  "list": [
+                    {
+                      "name": "奥迪Q7",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥迪TT",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥克斯",
+                  "id": "8",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "奥克斯C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥克斯C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥迪",
+                  "id": "9",
+                  "firstAlpha": "A",
+                  "list": [
+                    {
+                      "name": "奥迪Q7",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥迪TT",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奥克斯",
+                  "id": "10",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "奥克斯C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奥克斯C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奔驰",
+                  "id": "11",
                   "firstAlpha": "B",
                   "list": [
                     {
@@ -35,7 +260,278 @@
                 },
                 {
                   "name": "宝马",
-                  "id": "2",
+                  "id": "12",
+                  "firstAlpha": "B",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "奔驰",
+                  "id": "13",
+                  "firstAlpha": "B",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "宝马",
+                  "id": "14",
+                  "firstAlpha": "B",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "15",
+                  "firstAlpha": "C",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "16",
+                  "firstAlpha": "C",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "17",
+                  "firstAlpha": "C",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "18",
+                  "firstAlpha": "C",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "19",
+                  "firstAlpha": "C",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "20",
+                  "firstAlpha": "C",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "21",
+                  "firstAlpha": "C",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "22",
+                  "firstAlpha": "C",
+                  "selected": false,
+                  "list": [
+                    {
+                      "name": "宝马C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "宝马C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "宝马C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "23",
+                  "firstAlpha": "C",
+                  "list": [
+                    {
+                      "name": "奔驰C300",
+                      "selected": true,
+                      "id": "1"
+                    },
+                    {
+                      "name": "奔驰C600",
+                      "selected": false,
+                      "id": "2"
+                    },
+                    {
+                      "name": "奔驰C800",
+                      "selected": false,
+                      "id": "3"
+                    }
+                  ]
+                },
+                {
+                  "name": "长安",
+                  "id": "24",
+                  "firstAlpha": "C",
                   "selected": false,
                   "list": [
                     {
@@ -87,6 +583,7 @@
                 {
                   "name": "宝马",
                   "id": "2",
+                  "firstAlpha": "B",
                   "selected": false,
                   "list": [
                     {
@@ -138,6 +635,7 @@
                 {
                   "name": "宝马",
                   "id": "2",
+                  "firstAlpha": "B",
                   "selected": false,
                   "list": [
                     {
@@ -170,6 +668,72 @@
               "name": "最近一天访问品牌",
               "level": 1,
               "selectList": [
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
+                {
+                  "name": "奥迪A4",
+                  "firstAlpha": "A",
+                  "selected": false,
+                  "id": "10123"
+                },
                 {
                   "name": "奔驰",
                   "firstAlpha": "B",

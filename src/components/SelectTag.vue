@@ -6,9 +6,7 @@
     <div class="button-group">
       <button class="btn" v-for="(item, index) in selectData.list" :class="{'btn-active': index === selectData.activeTab}" @click="handleButtonClick(index)">{{item.tabName}}</button>
     </div>
-
     <select-box :data="selectData.list[selectData.activeTab]" @select-change="handleSelectChange"></select-box>
-
     <div class="footer">
       <button class="btn footer-btn" @click="handleClose(0)">取消</button>
       <button class="btn footer-btn" @click="handleClose(1)">确定</button>

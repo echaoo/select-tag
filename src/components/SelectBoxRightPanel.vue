@@ -2,11 +2,10 @@
   <div class="right-panel-container">
     <h1 class="list-title">已选择 <span>0</span>/<span>10</span>个标签</h1>
     <div v-if="data.level == 2">
-      <div class="first-list">
+      <div ref="scroller" class="first-list">
         <ul class="cas-panel">
           <li class="cas-item" v-for="(item, index) in data.selectList"
-              :class="{'tab-active': index == data.activeIndex}" v-on:click="handleCateClick(item, index)"
-          >
+              :class="{'tab-active': index == data.activeIndex}" v-on:click="handleCateClick(item, index)">
             {{item.name}}
           </li>
         </ul>
@@ -20,7 +19,7 @@
         </ul>
       </div>
     </div>
-    <div v-if="data.level == 1">
+    <div ref="scroller" class="level1-list" v-if="data.level == 1">
       <ul class="cas-panel">
         <li class="cas-item" v-for="(item, index) in data.selectList">
           <input type="checkbox" :value="item.id" v-model="item.selected" :id="item.id" v-on:click="handle1LevelItemClick(item, index)"><label class="label" :for="item.id">{{item.name}}</label>
@@ -36,6 +35,15 @@
       data: {
         type: Object,
         require: true
+      },
+      scrollDistance: {
+        type: Number
+      }
+    },
+    watch: {
+      scrollDistance () {
+        this.$refs.scroller.scrollTop = this.scrollDistance
+        console.log(this.scrollDistance)
       }
     },
     methods: {
@@ -80,6 +88,8 @@
 
   .first-list {
     width: 190px;
+    height: 262px;
+    overflow-y: auto;
     display: inline-block;
   }
 
@@ -90,10 +100,21 @@
   .second-list {
     float: right;
     width: 190px;
+    height: 262px;
+    overflow-y: auto;
     display: inline-block;
   }
 
   .second-list::-webkit-scrollbar {
     width: 0
+  }
+
+  .level1-list {
+    height: 262px;
+    overflow-y: auto;
+  }
+
+  .level1-list::-webkit-scrollbar {
+    width: 0;
   }
 </style>

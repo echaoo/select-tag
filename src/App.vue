@@ -17,10 +17,10 @@ export default {
     }
   },
   methods: {
-    changeTab(index) {
+    changeTab (index) {
       this.selectTagData.activeTab = index
     },
-    handleSelectChange(rs) {
+    handleSelectChange (rs) {
       if (rs.action === true) {
         if (this.selectTagData.currentSelect < this.selectTagData.totalSelect) {
           this.rs.push(rs)

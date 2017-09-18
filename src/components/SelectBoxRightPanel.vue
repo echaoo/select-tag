@@ -78,7 +78,7 @@
         rs.name = item.name
         rs.id = item.id
         rs.itemIndex = index
-        console.log('change item: ' + JSON.stringify(rs))
+//        console.log('change item: ' + JSON.stringify(rs))
         this.$emit('select-change', rs)
       }
     }

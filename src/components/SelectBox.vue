@@ -65,7 +65,7 @@
         this.$emit('select-change', rs)
       },
       setIndexData(data, height) {
-        console.log(data)
+//        console.log(data)
         let indexCount = {}
         let temp = []
         let sum = 0
@@ -75,11 +75,11 @@
             temp = []
             sum++
             temp.push(data[i])
-            console.log(sum)
+//            console.log(sum)
 //          } else if (i !== 0 && i !== (data.length - 1)) {
           } else if (i !== 0) {
             if (data[i].firstAlpha !== data[i - 1].firstAlpha) {
-              console.log(sum * height)
+//              console.log(sum * height)
               indexCount[data[i].firstAlpha] = (sum * height)
               temp = []
             }

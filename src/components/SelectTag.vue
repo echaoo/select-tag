@@ -48,7 +48,7 @@
 
   .select-tag-container {
     position: absolute;
-    top: 30px;
+    top: 110px;
     left: 50%;
     margin-left: -400px;
     width: 800px;

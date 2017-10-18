@@ -2,6 +2,8 @@
 
 > 一个多级选择框
 
+demo: https://echaoo.github.io/demos/select_tag/
+
 ### 项目启动步骤
 
 ``` bash
